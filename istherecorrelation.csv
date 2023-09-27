@@ -12,7 +12,4 @@
 2016;261,2;11731
 2017;267,9;11862
 2018;280,1;12048
-from plotter import Plotter
-my_plot = Plotter('istherecorrelation.csv')
-my_plot.scatter(X_Column='Year values', title='Beer Consumption', plotter',
-my_plot.save('istherecorrelation.png')
+
